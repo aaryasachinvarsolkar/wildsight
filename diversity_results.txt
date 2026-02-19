@@ -1,0 +1,22 @@
+=== ML DIVERSITY VERIFICATION (LEVEL 6 + DYNAMIC BIAS) ===
+
+Scenario: Tiger in Heatwave (Khatia)
+Location: 22.33, 80.61 (H3 Level 6: 863d9b6f7ffffff)
+Primary Stressor: heatwave (Score: 1.0)
+Recommendations:
+ -> [CRITICAL] Intelligence_Led_Anti_Poaching
+ -> [CRITICAL] Apex_Prey_Base_Restoration
+
+Scenario: Tiger in Forest Fire (Mukki)
+Location: 22.2, 80.65 (H3 Level 6: 863cb5d07ffffff)
+Primary Stressor: fire (Score: 1.0)
+Recommendations:
+ -> [CRITICAL] Fire_Refuge_Creation
+ -> [CRITICAL] Strategic_Fire_Break_Maintenance
+
+Scenario: GIB near Power Lines (Kutch)
+Location: 23.5, 69.5 (H3 Level 6: 8642c4a1fffffff)
+Primary Stressor: drought (Score: 0.5)
+Recommendations:
+ -> [CRITICAL] Install_Bird_Diverters
+ -> [CRITICAL] Nesting_Site_Exclusion_Zones

@@ -1,0 +1,15 @@
+--- Checking Counts ---
+
+Species: Indian Elephant
+Resolved: Elephas maximus indicus Cuvier, 1798
+Count: 24391
+Source: None
+Trend2022: 19709
+Trend2026: 24391
+
+Species: Nilgiri Tahr
+Resolved: Hemitragus hylocrius
+Count: 3125
+Source: None
+Trend2022: 4687
+Trend2026: 3125

@@ -1,0 +1,334 @@
+[
+    {
+        "species_name": "Hemitragus hylocrius",
+        "iucn_status": "Endangered",
+        "region_name": "Western Ghats",
+        "estimated_population": 3125,
+        "ideal_env": {
+            "ndvi": 0.6,
+            "temp": 18.0,
+            "rainfall": 2000,
+            "hdi": 0.1
+        },
+        "tolerance": {
+            "ndvi": 0.2,
+            "temp": 5.0,
+            "rainfall": 500
+        },
+        "checkpoints_region": {
+            "lat_min": 10.0,
+            "lat_max": 11.5,
+            "lon_min": 76.5,
+            "lon_max": 77.5
+        },
+        "traits": [
+            "mountain_goat",
+            "herbivore"
+        ],
+        "sensitivities": {
+            "poaching": "high",
+            "habitat_loss": "critical"
+        }
+    },
+    {
+        "species_name": "Nilgiri Tahr",
+        "iucn_status": "Endangered",
+        "region_name": "Western Ghats",
+        "estimated_population": 3125,
+        "ideal_env": {
+            "ndvi": 0.6,
+            "temp": 18.0,
+            "rainfall": 2000,
+            "hdi": 0.1
+        },
+        "tolerance": {
+            "ndvi": 0.2,
+            "temp": 5.0,
+            "rainfall": 500
+        },
+        "checkpoints_region": {
+            "lat_min": 10.0,
+            "lat_max": 11.5,
+            "lon_min": 76.5,
+            "lon_max": 77.5
+        },
+        "traits": [
+            "mountain_goat",
+            "herbivore"
+        ],
+        "sensitivities": {
+            "poaching": "high",
+            "habitat_loss": "critical"
+        }
+    },
+    {
+        "species_name": "Panthera tigris",
+        "iucn_status": "Endangered",
+        "region_name": "India",
+        "estimated_population": 3682,
+        "ideal_env": {
+            "ndvi": 0.7,
+            "temp": 22.5,
+            "rainfall": 1500,
+            "hdi": 0.2
+        },
+        "tolerance": {
+            "ndvi": 0.2,
+            "temp": 5.0,
+            "rainfall": 500
+        },
+        "checkpoints_region": {
+            "lat_min": 10.0,
+            "lat_max": 28.0,
+            "lon_min": 76.0,
+            "lon_max": 90.0
+        },
+        "traits": [
+            "predator",
+            "large_mammal",
+            "territorial"
+        ],
+        "sensitivities": {
+            "fire": "high",
+            "poaching": "critical",
+            "encroachment": "high"
+        }
+    },
+    {
+        "species_name": "Tiger",
+        "iucn_status": "Endangered",
+        "region_name": "Western Ghats",
+        "estimated_population": 3682,
+        "ideal_env": {
+            "ndvi": 0.7,
+            "temp": 22.5,
+            "rainfall": 1500,
+            "hdi": 0.2
+        },
+        "tolerance": {
+            "ndvi": 0.2,
+            "temp": 5.0,
+            "rainfall": 500
+        },
+        "checkpoints_region": {
+            "lat_min": 10.0,
+            "lat_max": 15.0,
+            "lon_min": 76.0,
+            "lon_max": 77.0
+        },
+        "traits": [
+            "predator",
+            "large_mammal",
+            "territorial"
+        ],
+        "sensitivities": {
+            "fire": "high",
+            "poaching": "critical",
+            "encroachment": "high",
+            "drought": "medium",
+            "disease": "medium"
+        }
+    },
+    {
+        "species_name": "Asian Elephant",
+        "iucn_status": "Endangered",
+        "region_name": "Nilgiris",
+        "estimated_population": 29964,
+        "ideal_env": {
+            "ndvi": 0.8,
+            "temp": 24.0,
+            "rainfall": 2000,
+            "hdi": 0.3
+        },
+        "tolerance": {
+            "ndvi": 0.15,
+            "temp": 4.0,
+            "rainfall": 600
+        },
+        "checkpoints_region": {
+            "lat_min": 11.0,
+            "lat_max": 12.0,
+            "lon_min": 76.0,
+            "lon_max": 77.0
+        },
+        "traits": [
+            "megaherbivore",
+            "migratory",
+            "social"
+        ],
+        "sensitivities": {
+            "fire": "medium",
+            "poaching": "high",
+            "encroachment": "critical",
+            "drought": "high",
+            "disease": "medium"
+        }
+    },
+    {
+        "species_name": "Snow Leopard",
+        "iucn_status": "Vulnerable",
+        "region_name": "Himalayas",
+        "estimated_population": 718,
+        "ideal_env": {
+            "ndvi": 0.2,
+            "temp": -5.0,
+            "rainfall": 400,
+            "hdi": 0.1
+        },
+        "tolerance": {
+            "ndvi": 0.3,
+            "temp": 15.0,
+            "rainfall": 200
+        },
+        "checkpoints_region": {
+            "lat_min": 30.0,
+            "lat_max": 35.0,
+            "lon_min": 77.0,
+            "lon_max": 80.0
+        },
+        "traits": [
+            "predator",
+            "solitary",
+            "high_altitude"
+        ],
+        "sensitivities": {
+            "fire": "low",
+            "poaching": "critical",
+            "encroachment": "medium",
+            "drought": "medium",
+            "climate_change": "critical"
+        }
+    },
+    {
+        "species_name": "Indian Rhinoceros",
+        "iucn_status": "Vulnerable",
+        "region_name": "Kaziranga",
+        "ideal_env": {
+            "ndvi": 0.6,
+            "temp": 28.0,
+            "rainfall": 2500,
+            "hdi": 0.4
+        },
+        "tolerance": {
+            "ndvi": 0.2,
+            "temp": 6.0,
+            "rainfall": 800
+        },
+        "checkpoints_region": {
+            "lat_min": 26.0,
+            "lat_max": 27.0,
+            "lon_min": 93.0,
+            "lon_max": 94.0
+        },
+        "traits": [
+            "megaherbivore",
+            "territorial",
+            "water_dependent"
+        ],
+        "sensitivities": {
+            "fire": "medium",
+            "poaching": "critical",
+            "encroachment": "high",
+            "drought": "low",
+            "flood": "high"
+        }
+    },
+    {
+        "species_name": "Great Indian Bustard",
+        "iucn_status": "Critically Endangered",
+        "region_name": "Thar Desert",
+        "estimated_population": 150,
+        "ideal_env": {
+            "ndvi": 0.1,
+            "temp": 35.0,
+            "rainfall": 200,
+            "hdi": 0.1
+        },
+        "tolerance": {
+            "ndvi": 0.1,
+            "temp": 10.0,
+            "rainfall": 100
+        },
+        "checkpoints_region": {
+            "lat_min": 26.0,
+            "lat_max": 28.0,
+            "lon_min": 70.0,
+            "lon_max": 72.0
+        },
+        "traits": [
+            "avian",
+            "ground_dweller",
+            "shy"
+        ],
+        "sensitivities": {
+            "fire": "low",
+            "poaching": "high",
+            "encroachment": "critical",
+            "power_lines": "critical",
+            "drought": "medium"
+        }
+    },
+    {
+        "species_name": "Syzygium travancoricum",
+        "iucn_status": "Critically Endangered",
+        "region_name": "Kerala Swamps",
+        "ideal_env": {
+            "ndvi": 0.85,
+            "temp": 24.0,
+            "rainfall": 2500,
+            "hdi": 0.4
+        },
+        "tolerance": {
+            "ndvi": 0.1,
+            "temp": 3.0,
+            "rainfall": 400
+        },
+        "checkpoints_region": {
+            "lat_min": 9.5,
+            "lat_max": 10.5,
+            "lon_min": 76.2,
+            "lon_max": 77.0
+        },
+        "traits": [
+            "swamp_specialist",
+            "flora",
+            "water_dependent"
+        ],
+        "sensitivities": {
+            "drought": "critical",
+            "encroachment": "high",
+            "drainage": "critical"
+        }
+    },
+    {
+        "species_name": "Semecarpus kathalekanensis",
+        "iucn_status": "Endangered",
+        "region_name": "Uttar Kannada",
+        "ideal_env": {
+            "ndvi": 0.8,
+            "temp": 26.0,
+            "rainfall": 2000,
+            "hdi": 0.3
+        },
+        "tolerance": {
+            "ndvi": 0.15,
+            "temp": 4.0,
+            "rainfall": 300
+        },
+        "checkpoints_region": {
+            "lat_min": 14.0,
+            "lat_max": 14.5,
+            "lon_min": 74.5,
+            "lon_max": 74.9
+        },
+        "traits": [
+            "evergreen",
+            "flora",
+            "canopy"
+        ],
+        "sensitivities": {
+            "fire": "high",
+            "logging": "critical"
+        }
+    }
+]

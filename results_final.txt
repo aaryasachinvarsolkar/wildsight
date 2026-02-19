@@ -1,0 +1,8 @@
+﻿--- Testing Latency for Bengal Tiger ---
+Run 1: 14.33s (Status: 200)
+Run 2 (Cache): 5.73s (Status: 200)
+------------------------------
+--- Testing Latency for Indian Elephant ---
+Run 1: 8.41s (Status: 200)
+Run 2 (Cache): 5.30s (Status: 200)
+------------------------------

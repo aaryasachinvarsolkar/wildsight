@@ -1,0 +1,28 @@
+fastapi
+uvicorn
+pydantic
+requests
+python-dotenv
+# Geospatial
+earthengine-api
+rasterio
+shapely
+geopandas
+mapbox-vector-tile
+h3
+# Data Science & ML
+numpy
+scikit-learn
+torch
+pandas
+sqlmodel
+
+# AI & Reporting
+google-genai
+fpdf2
+
+# Auth
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+email-validator
