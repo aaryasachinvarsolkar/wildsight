@@ -896,10 +896,10 @@ function Dashboard() {
 
             <div className="flex-1 w-full h-full min-h-[180px] px-2">
               <Line data={{
-                labels: activeSpecies.years,
+                labels: activeSpecies.pulse_history && activeSpecies.pulse_history.length > 0 ? activeSpecies.pulse_history.map(p => p.date).reverse() : activeSpecies.years,
                 datasets: [{
-                  label: 'Population',
-                  data: activeSpecies.population.length > 0 ? activeSpecies.population.map(p => p.count) : [0, 0, 0, 0, 0],
+                  label: 'Estimated Count',
+                  data: activeSpecies.pulse_history && activeSpecies.pulse_history.length > 0 ? activeSpecies.pulse_history.map(p => p.count).reverse() : (activeSpecies.population.length > 0 ? activeSpecies.population.map(p => p.count) : [0, 0, 0, 0, 0]),
                   borderColor: '#10b981',
                   backgroundColor: (context) => {
                     const ctx = context.chart.ctx;
