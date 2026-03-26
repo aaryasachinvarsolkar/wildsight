@@ -1,5 +1,5 @@
 from typing import Optional, List, Dict
-from sqlmodel import Field, SQLModel, create_engine, Session, JSON
+from sqlmodel import Field, SQLModel, create_engine, Session, JSON, select
 from datetime import datetime
 import os
 
@@ -9,7 +9,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 DB_PATH = os.path.join(BASE_DIR, "wildsight.db")
 DATABASE_URL = f"sqlite:///{DB_PATH}"
 
-engine = create_engine(DATABASE_URL, echo=False)
+engine = create_engine(
+    DATABASE_URL, 
+    echo=False, 
+    connect_args={"check_same_thread": False, "timeout": 30}
+)
+
+def enable_wal_mode():
+    with engine.connect() as conn:
+        conn.exec_driver_sql("PRAGMA journal_mode=WAL")
+
+enable_wal_mode()
 
 def get_session():
     with Session(engine) as session:

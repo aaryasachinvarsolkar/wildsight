@@ -26,3 +26,5 @@ passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
 email-validator
+firebase-admin
+tifffile

@@ -9,6 +9,7 @@ class BiometricFeature(BaseModel):
     longitude: float
     confidence: float
     source: str = Field(..., description="GBIF, iNaturalist, etc.")
+    is_cached: bool = False
 
 class EnvironmentalData(BaseModel):
     ndvi: float
@@ -21,6 +22,7 @@ class EnvironmentalData(BaseModel):
     nightlights: float = 0.0 # Proxy for urban pressure
     h3_index: Optional[str] = None # Added for location-aware trending
     place_name: Optional[str] = "Unknown Habitat"
+    is_cached: bool = False
 
 class RiskAssessment(BaseModel):
     risk_score: float = Field(..., ge=0.0, le=1.0)

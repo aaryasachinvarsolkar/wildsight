@@ -6,4 +6,4 @@ $env:FOR_DISABLE_CONSOLE_CTRL_HANDLER = "T"
 $env:OMP_NUM_THREADS = "1"
 
 cd backend
-python -u -m uvicorn main:app --reload --port 8000
+python -u -m uvicorn main:app --reload --host 0.0.0.0 --port 8000

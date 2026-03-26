@@ -47,7 +47,7 @@ class UserRegister(BaseModel):
     longitude: float
     firebase_uid: str
 
-async def get_current_user(auth_header: HTTPAuthorizationCredentials = Depends(security), session: Session = Depends(get_session)):
+def get_current_user(auth_header: HTTPAuthorizationCredentials = Depends(security), session: Session = Depends(get_session)):
     try:
         token = auth_header.credentials
         uid = None
